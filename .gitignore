@@ -1,4 +1,5 @@
 *.class
+/postgresql-42.7.4.jar
 out/
 target/
 .idea/
