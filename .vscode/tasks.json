@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Java Program",
+        "type": "shell",
+        "command": "javac ${file} && java ${fileBasenameNoExtension}",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$javac"],
+        "detail": "Compiles and runs the Java program in the terminal"
+      }
+    ]
+  }
+  
